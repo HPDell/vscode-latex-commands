@@ -11,14 +11,27 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:latex-commands.inlinemath"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "latex-commands.inlinemath",
+                "title": "LaTeX Commands: Inline Math"
+            },
+            {
+                "command": "latex-commands.displaymath",
+                "title": "LaTeX Commands: Display Math"
+            }
+        ],
+        "keybindings":[
+            {
+                "command": "latex-commands.inlinemath",
+                "key": "ctrl+alt+m"
+            },{
+                "command": "latex-commands.displaymath",
+                "key": "ctrl+alt+shift+m"
             }
         ]
     },
