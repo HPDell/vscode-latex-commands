@@ -4,6 +4,10 @@
     "description": "Usefull commands for LaTeX",
     "version": "0.0.1",
     "publisher": "HPDell",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:HPDell/vscode-latex-commands.git"
+    },
     "engines": {
         "vscode": "^1.24.0"
     },
