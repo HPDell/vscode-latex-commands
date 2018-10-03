@@ -23,15 +23,24 @@
             {
                 "command": "latex-commands.displaymath",
                 "title": "LaTeX Commands: Display Math"
+            },
+            {
+                "command": "latex-commands.item",
+                "title": "LaTeX Commands: Item"
             }
         ],
         "keybindings":[
             {
                 "command": "latex-commands.inlinemath",
                 "key": "ctrl+alt+m"
-            },{
+            },
+            {
                 "command": "latex-commands.displaymath",
                 "key": "ctrl+alt+shift+m"
+            },
+            {
+                "command": "latex-commands.item",
+                "key": "ctrl+alt+i"
             }
         ]
     },

@@ -15,4 +15,9 @@ commands.push({
     snippts: " $$ $1 $$ "
 });
 
+commands.push({
+    commands: "latex-commands.item",
+    snippts: "\\item "
+})
+
 export default commands;
