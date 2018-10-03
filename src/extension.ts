@@ -22,8 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
                 // The code you place here will be executed every time your command is executed
                 let editor = vscode.window.activeTextEditor;
                 let selection : vscode.Selection = editor.selection;
-                let insertPosition = new vscode.Position(selection.active.line, 0);
-                editor.insertSnippet(new vscode.SnippetString(snippet.snippts), insertPosition);
+                editor.insertSnippet(new vscode.SnippetString(snippet.snippts), selection.active);
             });
 
             context.subscriptions.push(disposable);
