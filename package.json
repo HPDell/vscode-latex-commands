@@ -3,7 +3,7 @@
     "displayName": "LaTeX Commands",
     "description": "Usefull commands for LaTeX",
     "version": "0.0.4",
-    "publisher": "HPDell",
+    "publisher": "HuYigong",
     "repository": {
         "type": "git",
         "url": "git@github.com:HPDell/vscode-latex-commands.git"
