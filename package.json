@@ -2,7 +2,7 @@
     "name": "vscode-latex-commands",
     "displayName": "LaTeX Commands",
     "description": "Usefull commands for LaTeX",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "HuYigong",
     "repository": {
         "type": "git",
