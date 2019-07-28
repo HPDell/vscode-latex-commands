@@ -2,8 +2,12 @@
     "name": "vscode-latex-commands",
     "displayName": "LaTeX Commands",
     "description": "Usefull commands for LaTeX",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "publisher": "HPDell",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:HPDell/vscode-latex-commands.git"
+    },
     "engines": {
         "vscode": "^1.24.0"
     },
@@ -11,14 +15,36 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:latex-commands.inlinemath"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "latex-commands.inlinemath",
+                "title": "LaTeX Commands: Inline Math"
+            },
+            {
+                "command": "latex-commands.displaymath",
+                "title": "LaTeX Commands: Display Math"
+            },
+            {
+                "command": "latex-commands.item",
+                "title": "LaTeX Commands: Item"
+            }
+        ],
+        "keybindings":[
+            {
+                "command": "latex-commands.inlinemath",
+                "key": "ctrl+alt+m"
+            },
+            {
+                "command": "latex-commands.displaymath",
+                "key": "ctrl+alt+shift+m"
+            },
+            {
+                "command": "latex-commands.item",
+                "key": "ctrl+alt+i"
             }
         ]
     },
