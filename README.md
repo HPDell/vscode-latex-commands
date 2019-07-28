@@ -34,7 +34,7 @@ There are no known issues.
 
 ## Release Notes
 
-### 0.0.4
+### 0.1.1
 
 - [x] Support for multiselection.
 - [x] While select a range of text, commands will add `$` and `$$` around the selected text instead of add a snippet at active cursor.
