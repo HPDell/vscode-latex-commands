@@ -34,6 +34,19 @@ There are no known issues.
 
 ## Release Notes
 
+### 0.0.4
+
+- [x] Support for multiselection.
+- [x] While select a range of text, commands will add `$` and `$$` around the selected text instead of add a snippet at active cursor.
+
+### 0.0.3
+
+- [x] Remove the whitespace at start and end position.
+
+### 0.0.2
+
+- [x] Fix the insert position error.
+
 ### 0.0.1
 
 - [x] Commands for adding inline `$ $` and display `$$` math environment.
