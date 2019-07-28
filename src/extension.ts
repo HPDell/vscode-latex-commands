@@ -23,7 +23,11 @@ export function activate(context: vscode.ExtensionContext) {
                 let editor = vscode.window.activeTextEditor;
                 for (const selection of editor.selections) {
                     let selectedText = editor.document.getText(selection);
-                    editor.insertSnippet(new vscode.SnippetString(snippet.snippts.replace("$1", selectedText)), selection);
+                    if (selection.isEmpty) {
+                        editor.insertSnippet(new vscode.SnippetString(snippet.snippts), selection);
+                    } else {
+                        editor.insertSnippet(new vscode.SnippetString(snippet.snippts.replace("$1", selectedText)), selection);
+                    }
                 }
                 // snippet.action(editor);
             });
