@@ -2,11 +2,11 @@
     "name": "vscode-latex-commands",
     "displayName": "LaTeX Commands",
     "description": "Usefull commands for LaTeX",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "HuYigong",
     "repository": {
         "type": "git",
-        "url": "git@github.com:HPDell/vscode-latex-commands.git"
+        "url": "https://github.com/HPDell/vscode-latex-commands.git"
     },
     "engines": {
         "vscode": "^1.24.0"
@@ -33,7 +33,7 @@
                 "title": "LaTeX Commands: Item"
             }
         ],
-        "keybindings":[
+        "keybindings": [
             {
                 "command": "latex-commands.inlinemath",
                 "key": "ctrl+alt+m"

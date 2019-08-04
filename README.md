@@ -34,6 +34,10 @@ There are no known issues.
 
 ## Release Notes
 
+### 0.1.3
+
+- [x] Fix repository address.
+
 ### 0.1.1
 
 - [x] Support for multiselection.
