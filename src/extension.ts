@@ -21,14 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
             let disposable = vscode.commands.registerTextEditorCommand(snippet.commands, () => {
                 // The code you place here will be executed every time your command is executed
                 let editor = vscode.window.activeTextEditor;
-                for (const selection of editor.selections) {
-                    if (selection.isEmpty) {
-                        editor.insertSnippet(new vscode.SnippetString(snippet.snippets), selection.active);
-                    } else {
-                        let selectedText = editor.document.getText(selection);
-                        editor.insertSnippet(new vscode.SnippetString(snippet.snippets.replace("$1", selectedText)), selection);
-                    }
-                }
+                snippet.handler(editor, snippet);
                 // snippet.action(editor);
             });
 
