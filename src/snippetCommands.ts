@@ -64,4 +64,23 @@ commands.push({
     }
 });
 
+commands.push({
+    commands: "latex-commands.plus1",
+    snippets: "",
+    handler: function (editor, snippet) {
+        for (let i = 0; i < editor.selections.length; i++) {
+            const selection = editor.selections[i];
+            if (!selection.isEmpty) {
+                try {
+                    let number0 = parseInt(editor.document.getText(selection));
+                    snippet.snippets = `${number0 + 1}`;
+                } catch (error) {
+                    continue;
+                }
+                editor.insertSnippet(new vscode.SnippetString(snippet.snippets), selection);
+            }
+        }
+    }
+});
+
 export default commands;

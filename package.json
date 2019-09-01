@@ -35,6 +35,10 @@
             {
                 "command": "latex-commands.seq1n",
                 "title": "LaTeX Commands: Generate sequence number 1 to n"
+            },
+            {
+                "command": "latex-commands.plus1",
+                "title": "LaTeX Commands: Add 1 to each selected number"
             }
         ],
         "keybindings": [
@@ -50,7 +54,7 @@
                 "command": "latex-commands.item",
                 "key": "ctrl+alt+i"
             }
-        ],
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
