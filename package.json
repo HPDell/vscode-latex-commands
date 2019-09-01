@@ -2,7 +2,7 @@
     "name": "vscode-latex-commands",
     "displayName": "LaTeX Commands",
     "description": "Usefull commands for LaTeX",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "publisher": "HuYigong",
     "repository": {
         "type": "git",
@@ -31,6 +31,14 @@
             {
                 "command": "latex-commands.item",
                 "title": "LaTeX Commands: Item"
+            },
+            {
+                "command": "latex-commands.seq1n",
+                "title": "LaTeX Commands: Generate sequence number 1 to n"
+            },
+            {
+                "command": "latex-commands.plus1",
+                "title": "LaTeX Commands: Add 1 to each selected number"
             }
         ],
         "keybindings": [

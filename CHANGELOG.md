@@ -5,6 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.0] - 2019-09-01
+
+- `latex-commands.seq1n`: Commands for generating sequence numbers at each selected position.
+- `latex-commands.plus1`: Commands for adding 1 to all selected text.
+
 ## [0.1.2] - 2019-07-28
 
 - Support for multiselection.
