@@ -34,6 +34,11 @@ There are no known issues.
 
 ## Release Notes
 
+### 0.2.0
+
+- [x] Commands for generating sequence numbers at each selected position.
+- [x] Commands for adding 1 to all selected text.
+
 ### 0.1.3
 
 - [x] Fix repository address.
