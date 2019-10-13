@@ -5,6 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.2.1] - 2019-10-13
+
+- Changed the `activationEvent` property to active the extension only in LaTeX file.
+
 ## [0.2.0] - 2019-09-01
 
 - `latex-commands.seq1n`: Commands for generating sequence numbers at each selected position.
