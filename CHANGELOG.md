@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.2.1] - 2019-10-13
 
 - Changed the `activationEvent` property to active the extension only in LaTeX file.
+- The `latex-commands.seq1n` command will replace the selected text instead of insert numbers at where selections are active.
 
 ## [0.2.0] - 2019-09-01
 

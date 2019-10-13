@@ -59,7 +59,7 @@ commands.push({
             } else {
                 snippet.snippets = "${1:n}"
             }
-            editor.insertSnippet(new vscode.SnippetString(snippet.snippets), selection.active);
+            editor.insertSnippet(new vscode.SnippetString(snippet.snippets), selection);
         }
     }
 });
