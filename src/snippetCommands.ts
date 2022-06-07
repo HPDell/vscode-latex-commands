@@ -10,7 +10,7 @@ let commands: LaTeXCommands[] = new Array<LaTeXCommands>();
 
 commands.push({
     commands: "latex-commands.inlinemath",
-    snippets: "\$ $1 \$",
+    snippets: "\$$1\$",
     handler: function(editor, snippet) {
         for (const selection of editor.selections) {
             if (selection.isEmpty) {
@@ -25,7 +25,7 @@ commands.push({
 
 commands.push({
     commands: "latex-commands.displaymath",
-    snippets: "\$\$ $1 \$\$",
+    snippets: "\$\$$1\$\$",
     handler: function(editor, snippet) {
         for (const selection of editor.selections) {
             if (selection.isEmpty) {
