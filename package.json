@@ -15,7 +15,10 @@
         "Other"
     ],
     "activationEvents": [
-        "onLanguage:latex"
+        "onLanguage:latex",
+        "onLanguage:markdown",
+        "onLanguage:rmd",
+        "onLanguage:rsweave"
     ],
     "main": "./out/extension",
     "contributes": {
